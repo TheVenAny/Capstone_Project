@@ -1,0 +1,142 @@
+@media (max-width: 1150px) {
+    /* ************** NAVBAR ************** */
+    .nav-bar-container {
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+        padding: 10px 15px;
+        /* background-color: green; */
+        margin: -1% -1%;
+        height: 85px;
+    }
+    /* NAVBAR > LOGO */
+    .nav-bar-container > .logo-container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-right: 15px;
+        width: 15%;
+    }
+    /* NAVBAR > LINKS */
+    .nav-bar-container > .nav-bar-links-container {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 45%;
+        height: 90%;
+        margin-right: 15px;
+        /* border: 2px solid antiquewhite; */
+    }
+    .nav-bar-container > .nav-bar-links-container > .nav-links-container {
+        position: relative;
+        width: 80%;
+        height: 45%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        /* border: 2px solid rgb(25, 72, 174); */
+    }
+    /* NAVBAR > BUTTONS */    
+    .nav-bar-container > .nav-btns-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80%;
+        width: 45%;
+        /* border: 2px solid rgb(25, 72, 174); */
+        padding: 5px 0px;
+    }
+    /* BUTTONS */        
+    .nav-bar-container > .nav-btns-container > .btn-wrapper > .btn {
+        height: 47px;
+        width: 100px;
+        background-color: rgba(182, 192, 217, 0.32);
+        margin-right: -1px;
+        font-size: 12px;
+    
+    }
+    .nav-bar-container > .nav-btns-container :nth-child(3) {
+        margin-right: -10px;
+        /* background-color: red; */
+    
+    }
+    
+    .nav-bar-container > .nav-btns-container > .icon-btn-wrapper > .icon-btn {
+        color: rgba(182, 192, 217, 0.32);
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .nav-bar-container > .nav-btns-container > .drop-dwn-btn-wrapper > .drop-dwn-btn {
+        height: 47px;
+        background-color: rgba(182, 192, 217, 0.32);
+        font-size: 12px;
+    }
+    .nav-bar-container > .nav-btns-container > .drop-dwn-btn-wrapper > .drop-dwn-btn i {
+        color: rgb(39, 201, 101);
+        font-size: 12px;
+    }
+
+    /* ************** LANDING-PG *************** */
+.landing-pg-container > .two-column-container {
+    display: grid;
+    grid-template-columns: 1.5fr 1.2fr;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;  
+    background-color: black;
+    box-shadow: inset 605px 25px 280px rgba(182, 192, 217, 0.32);
+    /* border: 2px solid rgb(70, 174, 25); */
+
+}
+    /* LANDING-PG > INFO Content */
+    .landing-pg-container > .two-column-container > .info-content :nth-child(1) {
+        color: rgb(230, 230, 230);
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+    }
+    .landing-pg-container > .two-column-container > .info-content :nth-child(1) span {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        filter: brightness(100%);
+    
+    }
+    .landing-pg-container > .two-column-container > .info-content :nth-child(2) {
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        filter: brightness(80%);
+        /* border: 2px solid rgb(25, 174, 65); */
+    }
+    .landing-pg-container > .two-column-container > .info-content > .info-btn-wrapper {
+        display: flex;
+        justify-content: left;
+        width: 100%;
+        height: 60px;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 10px;
+        /* border: 2px solid rgb(174, 171, 25); */
+    
+    }
+    .landing-pg-container > .two-column-container > .info-content > .info-btn-wrapper :nth-child(1) {
+        background-color: rgba(56, 255, 156, 1);
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        margin-right: 20px;
+        padding: 5px 15px;
+    }
+    .landing-pg-container > .two-column-container > .info-content > .info-btn-wrapper :nth-child(2) {
+        background-color: rgb(21, 20, 20);
+        color: white;
+        filter: brightness(100%);
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        margin-left: 20px;
+        padding: 5px 15px
+    }
+}

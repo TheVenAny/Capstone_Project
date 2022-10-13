@@ -1,0 +1,169 @@
+.nav-bar-container {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: black;
+    margin: -1% -1%;
+    height: 85px;
+}
+/* LOGO */
+.nav-bar-container > .logo-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
+    width: 15%;
+}
+.nav-bar-container > .logo-container img {
+    width: 80%;
+    height: 100%;
+    color: white;
+}
+.nav-bar-container > .logo-container img:hover {
+    opacity: 0.8;
+    filter: drop-shadow(3px 3px rgb(248, 245, 245, 0.1)) brightness(90%) blur(0.3px);
+}
+
+
+/* LINKS */
+.nav-bar-container > .nav-bar-links-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 50%;
+    height: 90%;
+    margin-right: 15px;
+    /* border: 2px solid antiquewhite; */
+}
+.nav-bar-container > .nav-bar-links-container > .explore-link-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 35%;
+    height: 30%;
+    /* border: 2px solid rgb(134, 34, 101);     */
+    
+}
+.nav-bar-container > .nav-bar-links-container > .explore-link-container a {
+    text-decoration: none;
+    color: rgb(222, 216, 46);
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+}
+.nav-bar-container > .nav-bar-links-container > .explore-link-container a:hover {
+    opacity: 0.8;
+}
+
+.nav-bar-container > .nav-bar-links-container > .nav-links-container {
+    position: relative;
+    width: 55%;
+    height: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* border: 2px solid rgb(25, 72, 174); */
+}
+.nav-bar-container > .nav-bar-links-container > .nav-links-container > .nav-link {
+}
+.nav-bar-container > .nav-bar-links-container > .nav-links-container > .nav-link a {
+    text-decoration: none;
+    color: white;
+    opacity: 0.9;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.nav-bar-container > .nav-bar-links-container > .nav-links-container > .nav-link a:hover {
+    color: rgba(56, 212, 255, 1);
+    opacity: 0.6;
+}
+
+.nav-bar-container > .nav-bar-links-container > .nav-links-container > .nav-link a h3 {
+    line-height: 0px;
+    font-size: 1em;
+}
+.nav-bar-container > .nav-bar-links-container > .nav-links-container > .nav-dropdown a {
+    width: 17%;
+    color: white;
+    opacity: 0.58;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+.nav-bar-container > .nav-bar-links-container > .nav-links-container > .nav-dropdown:hover {
+    opacity: 0.8;
+}
+.nav-bar-container > .nav-bar-links-container > .nav-links-container > .nav-dropdown a:hover {
+    color: rgba(56, 212, 255, 1);
+}
+
+
+.nav-bar-container > .nav-bar-links-container > .nav-links-container > .nav-dropdown a h3 {
+    line-height: 0px;
+    font-weight: 400;
+    font-size: 1em;
+}
+.nav-bar-container > .nav-bar-links-container > .nav-links-container > .nav-dropdown a i {
+    margin-left: 10px;
+}
+
+/* BUTTONS */
+
+.nav-bar-container > .nav-btns-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%;
+    width: 35%;
+    padding: 5px 0px;
+    /* border: 2px solid rgb(25, 72, 174); */
+}
+
+.nav-bar-container > .nav-btns-container > .btn-wrapper > .btn {
+    height: 47px;
+    width: 100px;
+    background-color: rgba(182, 192, 217, 0.32);
+    margin-right: -7px;
+
+}
+.nav-bar-container > .nav-btns-container > .btn-wrapper > .btn:hover {
+    color: rgb(39, 201, 101);
+    opacity: 0.6;
+}
+
+.nav-bar-container > .nav-btns-container :nth-child(3) {
+    margin-right: -20px;
+
+}
+
+.nav-bar-container > .nav-btns-container > .icon-btn-wrapper > .icon-btn {
+    color: rgba(182, 192, 217, 0.32);
+    font-weight: bold;
+    font-size: 18px;
+}
+.nav-bar-container > .nav-btns-container > .icon-btn-wrapper > .icon-btn:hover {
+    color: rgb(39, 201, 101);
+    opacity: 0.6;
+}
+
+.nav-bar-container > .nav-btns-container > .drop-dwn-btn-wrapper > .drop-dwn-btn {
+    height: 47px;
+    background-color: rgba(182, 192, 217, 0.32);
+}
+.nav-bar-container > .nav-btns-container > .drop-dwn-btn-wrapper > .drop-dwn-btn:hover {
+    color: rgb(39, 201, 101);
+    opacity: 0.8;
+}
+
+.nav-bar-container > .nav-btns-container > .drop-dwn-btn-wrapper > .drop-dwn-btn i {
+    color: rgb(39, 201, 101);
+    font-size: 19px;
+}
+.nav-bar-container > .nav-btns-container > .drop-dwn-btn-wrapper > .drop-dwn-btn i:hover {
+    font-size: 25;
+}
+
